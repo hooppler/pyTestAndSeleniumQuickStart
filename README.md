@@ -11,7 +11,6 @@ https://github.com/hooppler/DjangoQuickStart.git
 - pyTest Hello World
 - pytest_group_in_classes
 - pytest_selenium_hello_world
-- pytest_selenium_allure_hello_world
 
 ## Install Environment (Windows)
 
