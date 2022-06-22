@@ -14,15 +14,11 @@
 # cd to directory that contain scripts and type from comand line:
 # > pytest
 
-#import pytest
-#from selenium import webdriver
-#from selenium.webdriver.common.by import By
-#
-#class TestClass:
-#    def test_check_helloworld_link(self):
-#        driver = webdriver.Chrome()
-#        driver.get('http://127.0.0.1:8000/')
-#        element = driver.find_element(By.LINK_TEXT, 'Helloworld!!!')
-#        element.click()
+import allure
+import pytest
+
+def test_allure_example():
+    with allure.step("Allure step example"):
+        pass
 
         
