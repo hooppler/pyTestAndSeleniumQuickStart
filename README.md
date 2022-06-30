@@ -16,6 +16,7 @@ https://github.com/hooppler/DjangoQuickStart.git
 ## Install Environment (Windows)
 
 1. Clone repository:\
+   Click on 'Code' select HTTPS and copy link.
 ..> git clone https://github.com/hooppler/pyTestAndSeleniumQuickstart.git
 
 2. Enter to project directory:\
