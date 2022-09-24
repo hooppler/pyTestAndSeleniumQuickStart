@@ -28,5 +28,6 @@
 def helper_function():
     return True
 
+
 def test_hello_world():
     assert helper_function() == True

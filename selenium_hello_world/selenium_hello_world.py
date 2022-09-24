@@ -10,15 +10,6 @@
 # 
 # Start example django application to be tested:
 # https://github.com/hooppler/DjangoQuickStart
-#
-# Path of the chromedriver can be specified from the test:
-#
-# from selenium import webdriver
-# from selenium.webdriver.chrome.service import Service
-# 
-# service = Service(r'C:\chromedriver\chromedriver.exe')
-# options = webdriver.ChromeOptions()
-# driver = webdriver.Chrome(options=options, service=service)
 
 from selenium import webdriver
 from selenium.webdriver.common.by import By
