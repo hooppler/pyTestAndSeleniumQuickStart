@@ -5,13 +5,9 @@
 # Download chrome driver from location:
 # https://chromedriver.chromium.org/downloads
 #
-# Copy chromedriver file to location that is in PATH variable
-# (It can be in Scripts/bin forlder of virtual environment)
-#
-# Start example django application to be tested:
-# https://github.com/hooppler/DjangoQuickStart
-#
 # Copy chromedriver.exe to path C:\chromedriver
+#
+# This application is using www.google.com as example
 
 from selenium import webdriver
 from selenium.webdriver.chrome.service import Service
